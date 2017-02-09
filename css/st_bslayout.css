@@ -1,0 +1,78 @@
+body, html {
+    margin : 0px;
+    padding: 0px;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #CCE9EA;
+
+    overflow-x: hidden;
+}
+.clearfix {
+    clear : both;
+}
+
+
+#header {
+
+    position: relative;
+    width:100%;
+    height:100px;
+
+    background-color: yellowgreen;
+}
+
+.sidebar1{
+
+    position: absolute;
+    float : left;
+    width:100px;
+    height:100px;
+
+    background-color: yellow;
+
+}
+
+
+#section1 {
+    position: absolute;
+    width : 100%;
+    height: 100px;
+
+
+    margin: 0 auto;
+
+}
+
+#section1 #main{
+
+    position: relative;
+    width : 200px;
+    height: 100px;
+    left: 50%;
+    margin: 0px 0px 0px -100px;
+
+
+    background-color: red;
+}
+
+
+.sidebar2 {
+    float: right;
+    width: 100px;
+    height:100px;
+
+    background-color: blue;
+ }
+
+
+.footer {
+    width:100%;
+    height: 100px;
+
+    background-color: black;
+}

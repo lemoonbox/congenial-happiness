@@ -1,0 +1,630 @@
+@media only screen and (max-width: 767px){
+
+    body{
+        background-color: red;
+    }
+    #background{
+        background-image: url(../img/mobile/mobile_total_bg.png);
+    }
+    
+    p{
+        font-family: "Nanum Gothic", sans-serif;
+        font-size: 10px;
+        line-height: 12px;
+        padding-top: 15px;
+    }
+
+    #intro{
+        position: relative;
+        height: 1150px;
+    }
+
+    #intro .introWrap{
+
+        position: relative;
+        width: 189px;
+        height: 129px;
+
+        padding: 150px 0 120px 0;
+        margin: 0px 0 0 -94.5px;
+    }
+
+    #intro .introWrap .logo{
+
+        position: relative;
+        width : 189px;
+        height: 129px;
+
+        background-image: url(../img/mobile/intro/mobile_logo.png);
+    }
+    
+    #intro .introWrap .lion,
+    #intro .introWrap .rabbit,
+    #intro .introWrap .bear,
+    #intro .introWrap .monkey,
+    #intro .cloud .dragonfly{
+        display: none;
+    }
+
+    /*----------introcloud---------*/
+    #intro .cloud{
+        position: relative;
+        width : 100%;
+        height:350px;
+    }
+
+    #intro .cloud .leftcloud{
+        width: 267px;
+        height: 314px;
+
+        background-image: url("../img/mobile/intro/mobile_cloud1.png");
+    }
+
+    #intro .cloud .rightcloud{
+
+        position: absolute;
+        width: 237px;
+        height: 309px;
+
+        left : 100%;
+        margin-left: -237px;
+        background-image: url("../img/mobile/intro/mobile_cloud2.png");
+    }
+
+    /*--------farm1_line-----------*/
+    #farm1{
+        width : 100%;
+        height: 450px;
+
+    }
+
+    #farm1 .farmer{
+
+        position: absolute;
+        width: 160px;
+        height: 250px;
+
+        left : 50%;
+        margin : 0 0 0 -80px;
+
+        background-image: url(../img/mobile/farm/farm1/mobile_farmer.png);
+    }
+
+    #farm1 .leftrice{
+
+        position: absolute;
+        width : 86px;
+        height:187px;
+
+        background-image: url(../img/mobile/farm/farm1/mobile_leftrice.png);
+        margin : 0 0 0 0;
+    }
+
+    #farm1 .rightrice {
+
+        float: right;
+        width: 95px;
+        height: 170px;
+        margin : 0 0 0 0;
+
+        background-image: url(../img/mobile/farm/farm1/mobile_rightrice.png);
+
+    }
+
+    #farm1 .farmspeachWrap{
+
+        position: absolute;
+        width: 300px;
+        height:80px;
+
+        left : 50%;
+
+        margin : 180px 0 0 -150px;
+    }
+
+    #farm1 .farmspeachWrap .farmtitle{
+
+        position : absolute;
+        width : 79px;
+        height: 22px;
+
+        left: 50%;
+        margin : 0 0 0 -40px;
+
+        background-image: url(../img/mobile/farm/farm1/mobile_farmspeech.png);
+
+    }
+
+    #farm1 .farmspeachWrap .farmspeach_mobile{
+
+        text-align: center;
+        font-family: "Nanum Gothic", sans-serif;
+        font-size: 10px;
+        line-height:20px;
+        color : #895C2F
+    }
+
+    #farm1 .farmspeachWrap .farmspeach{
+        display : none;
+    }
+
+    /*--------farm2_line-----------*/
+    #farm2 {
+        width : 100%;
+        height: 440px;
+    }
+
+    #farm2 .scarecrow{
+
+        display : none;
+    }
+
+    #farm2 .leftrice2{
+
+        position: absolute;
+        width: 57px;
+        height: 201px;
+        margin : 0 0 0 0;
+
+
+        background-image: url(../img/mobile/farm/farm2/mobile_leftrice2.png);
+    }
+
+    #farm2 .rightrice2{
+
+        float : right;
+        width: 54px;
+        height: 202px;
+
+        margin: 0 0 0 0;
+
+        background-image: url(../img/mobile/farm/farm2/mobile_rightrice2.png);
+    }
+
+    /*--------farm3_line-----------*/
+
+    #farm3{
+
+        position : relative;
+        width: 100%;
+        height: 500px;
+    }
+
+    #farm3 .leftwindow{
+
+        position: absolute;
+        width: 82px;
+        height: 56px;
+
+        margin: 10px 0 0 10px;
+
+        background-image: url(../img/mobile/farm/farm3/mobile_window.png);
+
+    }
+
+    #farm3 .machinWraper{
+        position: absolute;
+        width: 200px;
+        height: 150px;
+
+
+        top : 120px;
+        left: 50%;
+        margin: 0px 0 0 -96px;
+    }
+
+    #farm3 .ricemachin{
+
+        position: absolute;
+        width: 191px;
+        height:149px;
+
+        z-index: 200;
+
+        background-image: url(../img/mobile/farm/farm3/mobile_machine1.png);
+    }
+    #farm3 .sawShadow{
+
+        display: none;
+    }
+    #farm3 .saw1{
+
+        width: 31px;
+        height: 31px;
+
+        margin: 50px 0 0 50px;
+
+        background-image: url(../img/mobile/farm/farm3/mobile_saw.png);
+    }
+    #farm3 .saw2{
+
+        width: 31px;
+        height: 31px;
+
+        margin: 50px 0 0 115px;
+
+        background-image: url(../img/mobile/farm/farm3/mobile_saw.png);
+
+    }
+    #farm3 .machinbird,
+    #farm3 .roller{
+
+        display: none;
+    }
+    #farm3 .farm3bubble{
+
+        position: absolute;
+        width: 151px;
+        height: 92px;
+
+        left: 50%;
+
+        margin : 350px 0 0 -80px;
+
+        background-image: url(../img/mobile/farm/farm3/mobile_farm3bubble.png);
+    }
+
+    /*--------------forest1------------------*/
+    #forest1{
+
+        width: 100%;
+        height: 400px;
+    }
+
+    #forest1 .lefttree{
+
+        width: 79px;
+        height: 187px;
+
+        margin: 0 0 0 0;
+
+        background-image: url(../img/mobile/forest/forest1/mobile_lefttree.png);
+    }
+
+    #forest1 .righttreeWrap{
+
+        float: right;
+        position: relative;
+        width: 68px;
+        height: 129px;
+
+        top : 200px;
+
+        margin: 0 0 0 0;
+    }
+
+
+    #forest1 .rabbit1,
+    #forest1 .rabbit2{
+
+        display : none;
+    }
+    #forest1 .righttree{
+
+        position: absolute;
+        width : 68px;
+        height: 129px;
+
+        background-image: url(../img/mobile/forest/forest1/mobile_righttree.png);
+    }
+    /*--------------forest2------------------*/
+    #forest2{
+
+        position: relative;
+        width: 100%;
+        height: 400px;
+
+    }
+
+    #forest2 .frog{
+
+        width: 35px;
+        height:57px;
+
+        margin : 0 0 0 20px;
+
+        background-image: url(../img/mobile/forest/forest2/mobile_frog.png);
+    }
+
+    #forest2 .machinWraper2{
+
+        width:200px;
+        height: 100px;
+
+        top : 70px;
+        margin : 0 0 0 -95px;
+    }
+    #forest2 .machinWraper2 .machinwing1{
+
+        position: absolute;
+        width: 46px;
+        height: 85px;
+
+        margin: 0 0 0 20px;
+        background-image: url(../img/mobile/forest/forest2/mobile_machineleft.png);
+    }
+    #forest2 .machinWraper2 .machinwing2{
+
+        position: absolute;
+        width:46px;
+        height: 93px;
+
+        margin: -10px 0 0 130px;
+        background-image: url(../img/mobile/forest/forest2/mobile_machineright.png);
+    }
+    #forest2 .machinWraper2 .machinbase{
+
+        position: absolute;
+        width: 141px;
+        height: 60px;
+
+        left: 50%;
+        margin: 50px 0 0 -70.5px;
+        background-image: url(../img/mobile/forest/forest2/mobile_machinebottom.png);
+    }
+    #forest2 .forestbubble{
+
+        position: absolute;
+        width: 161px;
+        height: 97px;
+
+        top : 290px;
+        left : 50%;
+        margin : 0 100px 0 -83px;
+
+        background-image: url(../img/mobile/forest/forest2/mobile_forestbubble.png);
+    }
+    /*--------------forest3------------------*/
+    #forest3 {
+
+        position: relative;
+        width: 100%;
+        height: 630px;
+    }
+    #forest3 .forest3tree{
+
+        float: right;
+        position: relative;
+        width : 99px;
+        height: 127px;
+
+        top : 200px;
+        margin : 0 0 0 0;
+
+        background-image: url(../img/mobile/forest/forest3/mobile_forest3tree.png);
+    }
+    #forest3 .birdWraper,
+    #forest3 .forest3tree .birdWraper .bird1,
+    #forest3 .forest3tree .birdWraper .bird2{
+
+        display: none;
+    }
+
+    #forest3 .forest3mobiletree{
+
+        position: relative;
+        width: 95px;
+        height: 81px;
+
+        top : 450px;
+
+        background-image: url(../img/mobile/forest/forest3/mobile_forest3tree.png);
+    }
+
+    /*--------------science------------------*/
+    #science{
+
+        position: relative;
+        width: 100%;
+        height: 580px;
+
+    }
+
+    #science .scienceWrap{
+
+        position: relative;
+        width : 280px;
+        height: 150px;
+
+        top : 180px;
+        left : 50%;
+        margin : 0 0 0 -140px;
+    }
+    #science .scienceWrap .gly{
+
+        position : absolute;
+        width : 76px;
+        height: 63px;
+
+        margin : 30px 0 0 0;
+
+        background-image: url(../img/mobile/science/mobile_gly.png);
+    }
+    #science .scienceWrap .grap{
+
+        position : absolute;
+        width : 80px;
+        height: 71px;
+
+        left : 50%;
+        margin : 0 0 0 -40px;
+
+        background-image: url(../img/mobile/science/mobile_grape.png);
+    }
+    #science .scienceWrap .water{
+
+        position: absolute;
+        width : 67px;
+        height: 63px;
+
+        margin : 30px 0 0 213px;
+
+        background-image: url(../img/mobile/science/mobile_water.png);
+    }
+    #science .scienceWrap .hopperback{
+
+        position: absolute;
+        width : 173px;
+        height: 151px;
+
+
+        left : 50%;
+        margin : 80px 0 0 -80px;
+
+        background-image: url(../img/mobile/science/mobile_hopperback.png);
+    }
+    #science .scienceWrap .hopperfront{
+
+        position: absolute;
+        width : 160px;
+        height: 122px;
+
+
+        left : 50%;
+        margin : 100px 0 0 -80px;
+
+        background-image: url(../img/mobile/science/mobile_hopperfront.png);
+    }
+    #science .SCspWrap{
+
+        position: absolute;
+        width : 320px;
+        height: 300px;
+
+        top : 30px;
+        left : 50%;
+        margin : 0 0 0 -140px;
+    }
+
+    #science .SCspWrap .SCspleft{
+
+        position : absolute;
+        width : 150px;
+        height: 100px;
+
+        marign : 0 0 0 0;
+    }
+    #science .SCspWrap .SCspleft .SCtitle1{
+
+        position : absolute;
+        width : 115px;
+        height: 21px;
+
+        background-image: url(../img/mobile/science/mobile_leftTitle.png);
+    }
+    #science .SCspWrap .SCspleft .SCspeach1_mobile{
+
+        position: absolute;
+        width : 150px;
+        height: 45px;
+
+        color: #8E7577;
+        padding-top : 10px;
+        line-height: 15px;
+        margin : 10px 0 0 0;
+    }
+    #science .SCspWrap .SCspleft .SCspeach1{
+
+        display: none;
+    }
+    #science .SCspWrap .SCspright{
+
+        float: right;
+        width : 150px;
+        height: 100px;
+
+        margin : 0 0 0 0;
+    }
+    #science .SCspWrap .SCspright .SCtitle2{
+
+             position : absolute;
+             width : 120px;
+             height: 21px;
+
+             background-image: url(../img/mobile/science/mobile_rightTitle.png);
+    }
+    #science .SCspWrap .SCspright .SCspeach2_mobile{
+
+             position: absolute;
+             width : 150px;
+             height: 60px;
+
+             color: #8E7577;
+             padding-top : 10px;
+             margin : 15px 0 10px 0;
+     }
+    #science .SCspWrap .SCspright .SCspeach2{
+
+        display: none;
+    }
+
+    /*--------------onday_night1------------------*/
+
+    #oneday .night1{
+
+        position: relative;
+        width : 100%;
+        height: 500px;
+    }
+    #oneday .night1 .owl{
+
+        position: relative;
+        width : 88px;
+        height: 151px;
+
+        margin: 0 0 0 0;
+        background-image: url(../img/mobile/oneday/night1/mobile_owl.png);
+    }
+    #oneday .night1 .starWrap{
+
+        position : absolute;
+        width: 308px;
+        height: 157px;
+
+        margin : 50px 0 0 50px;
+        background-image: url(../img/mobile/oneday/night1/mobile_star.png);
+    }
+
+    #oneday .night1 .starWrap .star1,
+    #oneday .night1 .starWrap .star2,
+    #oneday .night1 .starWrap .star3{
+        display: none;
+    }
+    /*--------------onday_night2------------------*/
+    #oneday .night2{
+        position: relative;
+        width : 100%;
+        height: 800px;
+    }
+    #oneday .night2 .cloudWrap,
+    #oneday .night2 .cloudWrap .cloud1,
+    #oneday .night2 .cloudWrap .cloud2,
+    #oneday .night2 .cloudWrap .cloud3,
+    #oneday .night2 .cloudWrap .cloud4,
+    #oneday .night2 .cloudWrap .cloud5{
+
+        display: none;
+    }
+
+    #oneday .night2 .nightbubble{
+
+        position: absolute;
+        width: 127px;
+        height: 77px;
+
+        left: 50%;
+        margin : 300px 0 0 -67px;
+
+        background-image: url(../img/mobile/oneday/night2/mobile_night2bubble.png);
+    }
+
+    #oneday .night2 .moonPC{
+
+        display: none;
+    }
+    #oneday .night2 .nightMoontree{
+
+        display: none;
+    }
+}
+
